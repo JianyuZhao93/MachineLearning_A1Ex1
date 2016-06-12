@@ -6,10 +6,10 @@
 % 
 % Input:    input data 'in', output data 'out', orders of the polynomial 
 %           regression 'p1' and 'p2'
-% Output:   learned parameters in a cell array 'par'
+% Output:   learned parameters in a cell array 'paras'
 %
 % Author: Jianyu Zhao
-% Last revised: 11.06.2016
+% Last revised: 12.06.2016
 %
 %
 

@@ -8,13 +8,20 @@
 % Output:   the cell array 'par'
 %
 % Author: Jianyu Zhao
-% Last revised: 11.06.2016
+% Last revised: 12.06.2016
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function Exercise1(k)
+function par = Exercise1(k)
+
+load('Data.mat');
 
 
+for i=1:6
+    for j=1:6
+        par = LinearRegression(Input,Output,i,j);
+    end
+end
 
 end
