@@ -14,7 +14,7 @@
 par = Exercise1(5);
 save('params.mat','par');
 
-Simulate_robot(0.5,-0.03);
+%Simulate_robot(0.5,-0.03);
 
 
 
